@@ -1,4 +1,4 @@
-//create a function that uses a static variable that increments and keeps it's value
+//create a function that uses a global variable that increments and keeps it's value
 // and returns it to main and then print this value
 
 #include <stdio.h>
