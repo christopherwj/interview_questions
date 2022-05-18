@@ -2,23 +2,23 @@
 All my interview questions I have been asked for embedded stuff
 
 
-*Arrays:*
+<ins>Arrays:</ins>
 
-binary search
+  binary search
 
-2 pointer search
+  2 pointer search
+  
+  sliding window problem
 
-sliding window problem
-
-kadane algorithm
+  kadane algorithm
 
 
-*Strings:*
+<ins>Strings:</ins>
 
 Reverse string
 
 
-*Linked List:*
+<ins>Linked List:</ins>
 
 Reverse Singly Linked List
 
@@ -35,7 +35,7 @@ Find last nth element of list
 Find if there is loop in list
 
 
-*Stacks and Queue:*
+<ins>Stacks and Queue:</ins>
 
 Implement Stack (FIFO) using Arrays
 
@@ -48,7 +48,7 @@ Implement Queue using Arrays
 Implement Circular buffer
 
 
-*Bit Manipulation:*
+<ins>Bit Manipulation:</ins>
 
 atoi, itoa, itob, float to bin (link), atof
 
@@ -63,7 +63,7 @@ range of 8 bit (-128 to 127 link)
 represent float in binary (link)
 
 
-*Memory:*
+<ins>Memory:</ins>
 
 implement aligned malloc/free ** link
 
