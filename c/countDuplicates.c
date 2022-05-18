@@ -18,3 +18,35 @@ qsort(nums, numsSize, sizeof(int), _cmp);
   }
   return false;
 }
+
+
+//code below works
+#include <stdlib.h>
+#include <stdbool.h>
+
+int cmp_chars(const void *a, const void *b)
+{
+    return *(char*)a - *(char*)b;
+}
+
+int i;
+
+int main() {
+    char canvas[] = "aabbc";
+    
+    qsort(canvas, sizeof(canvas) - 1, sizeof(canvas[0]), cmp_chars);
+    
+    bool duplicate_found = false;
+    for (char *p = canvas; p[1] != '\0'; ++p) {
+        if (p[0] == p[1]) {
+            duplicate_found = true;
+            //break;
+            i++;
+        }
+    }
+    
+    //printf("'%s' %s duplicates\n",
+    //    canvas,
+    //   duplicate_found ? "has" : "does not have");
+    printf("%d", i);
+}  
