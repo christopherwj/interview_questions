@@ -22,7 +22,7 @@ int main() {
     }
     printf("%d", i); //print the number of duplicates
 }  
-=================================================================================
+//=================================================================================
 // returns true if a duplicate is found
 #include <stdlib.h>
 #include <stdbool.h>
@@ -49,3 +49,35 @@ int main() {
         canvas,
         duplicate_found ? "has" : "does not have");
 }
+
+//=================================================================================
+//function version down below
+#include <stdlib.h>
+#include <stdio.h>
+
+int cmp_chars(const void *a, const void *b)
+{
+    return *(char*)a - *(char*)b;
+}
+
+
+int i;
+
+void countDup(char canvas[], int arrSize){
+    //char canvas[] = "aabbc";
+    
+    
+    qsort(canvas, arrSize - 1, sizeof(canvas[0]), cmp_chars);
+    
+    for (char *p = canvas; p[1] != '\0'; ++p) {
+        if (p[0] == p[1]) {
+            i++;
+        }
+    }
+    printf("%d", i); //print the number of duplicates
+}
+
+int main() {
+    char can[] = "aabbc";
+    countDup(can, 5);
+}  
