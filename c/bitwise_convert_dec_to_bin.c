@@ -32,3 +32,6 @@ void getBinary(int n)
 			printf("0");
 	}
 }
+
+Enter an integer number :13
+Binary value of 13 is =0000000000001101
