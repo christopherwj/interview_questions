@@ -103,3 +103,17 @@ int main()
  
     return 0;
 }
+
+/*
+where this would be used 
+Where is FIFO used:
+
+Data Structures
+Certain data structures like Queue and other variants of Queue uses FIFO approach for processing data.
+
+Disk scheduling
+Disk controllers can use the FIFO as a disk scheduling algorithm to determine the order in which to service disk I/O requests.
+
+Communications and networking
+Communication network bridges, switches and routers used in computer networks use FIFOs to hold data packets en route to their next destination.
+*/
