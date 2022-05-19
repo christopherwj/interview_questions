@@ -1,3 +1,5 @@
+https://www.techiedelight.com/swap-adjacent-bits-number/
+
 #include <iostream>
 #include <bitset>
 using namespace std;
