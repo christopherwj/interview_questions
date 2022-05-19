@@ -36,4 +36,7 @@ The program generates the following output:
 -1.50        -96
   
   
-  On the other hand, floating point representation expensive to implement. Since a floating point number is represented using a mantissa and an exponent, every arithmetic operation involving a floating point number implies operations on both the mantissa as well as the exponent. Furthermore, floating point numbers have to be aligned before every operation, and they have to be normalized after every operation. Floating point arithmetic has a high complexity, much larger than that of typical integer arithmetic.
+  On the other hand, floating point representation expensive to implement. Since a floating point number is represented using a mantissa and an exponent, every
+  arithmetic operation involving a floating point number implies operations on both the mantissa as well as the exponent. Furthermore, floating point numbers 
+  have to be aligned before every operation, and they have to be normalized after every operation. Floating point arithmetic has a high complexity, 
+much larger than that of typical integer arithmetic.
