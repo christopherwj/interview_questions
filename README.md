@@ -10,3 +10,6 @@ https://medium.com/@akashagrawal_33749/cracking-the-firmware-embedded-systems-en
 
 list of bit manipulation questions:
 https://medium.com/techie-delight/bit-manipulation-interview-questions-and-practice-problems-27c0e71412e7
+
+different comm protocols:
+https://www.seeedstudio.com/blog/2019/09/25/uart-vs-i2c-vs-spi-communication-protocols-and-uses/
