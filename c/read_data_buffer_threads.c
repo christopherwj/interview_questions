@@ -1,3 +1,5 @@
+https://stackoverflow.com/questions/10307302/reading-from-text-file-using-buffer-and-multithreading-in-c
+
 pthread_mutex_t mux;
 pthread_cond_var_t valid_bytes_updated;
 
