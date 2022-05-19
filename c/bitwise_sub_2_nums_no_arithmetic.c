@@ -18,7 +18,7 @@ int subtract(int x, int y)
         // Subtraction of bits of x
         // and y where at least one
         // of the bits is not set
-        x = x ^ y;
+        x = x ^ y; //XOR is ^, OR is |
  
         // Borrow is shifted by one
         // so that subtracting it from
@@ -31,7 +31,8 @@ int subtract(int x, int y)
 // Driver Code
 int main()
 {
-    int x = 29, y = 13;
+    //int x = 0x08, y = 0x04; this works returns 0x04, vice versa works and returns -4 think 2's complement
+    int x = 4, y = 4;
     printf("x - y is %d", subtract(x, y));
     return 0;
 }
