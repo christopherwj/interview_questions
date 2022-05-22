@@ -13,3 +13,6 @@ https://medium.com/techie-delight/bit-manipulation-interview-questions-and-pract
 
 different comm protocols:
 https://www.seeedstudio.com/blog/2019/09/25/uart-vs-i2c-vs-spi-communication-protocols-and-uses/
+
+embedded software engineer website:
+https://www.freecodecamp.org/news/how-to-landing-your-embedded-software-dream-job-4ff9674bf1c4/
