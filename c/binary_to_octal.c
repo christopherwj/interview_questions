@@ -1,22 +1,21 @@
 /*
  * C Program to Convert Binary to Octal
- * https://www.sanfoundry.com/c-program-convert-binary-octal/
+ * https://www.embeddedc.in/p/c-program-for-binary-to-octal-conversion.html
  */
  #include <stdio.h>
  
+#include<stdio.h>
 int main()
 {
-    long int binarynum, octalnum = 0, j = 1, remainder;
- 
-    printf("Enter the value for  binary number: ");
-    scanf("%ld", &binarynum);
-    while (binarynum != 0)
+    int number,octnumber=0,a=1,remainder;
+    printf("Enter the binary number:");
+    scanf("%d",&number);
+    while(number!=0)
     {
-        remainder = binarynum % 10;
-        octalnum = octalnum + remainder * j;
-        j = j * 2;
-        binarynum = binarynum / 10;
+        remainder=number%10;
+        octnumber=octnumber+remainder*a;
+        a=a*2;
+        number=number/10;
     }
-    printf("Equivalent octal value: %lo", octalnum);
-    return 0;
+     printf("Octal number:%o", octnumber);
 }
