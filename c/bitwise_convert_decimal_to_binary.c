@@ -1,4 +1,6 @@
-https://www.includehelp.com/c-programs/c-program-get-binary-of-a-decimal-number.aspx
+//https://www.includehelp.com/c-programs/c-program-get-binary-of-a-decimal-number.aspx
+
+
 #include <stdio.h>
 
 /*function declaration
@@ -33,5 +35,5 @@ void getBinary(int n)
 	}
 }
 
-Enter an integer number :13
-Binary value of 13 is =0000000000001101
+//Enter an integer number :13
+//Binary value of 13 is =0000000000001101
