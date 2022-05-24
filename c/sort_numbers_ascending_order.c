@@ -13,7 +13,7 @@ void sort_numbers_ascending(int number[], int count)
    {
       for (k = j + 1; k < count; ++k)
       {
-         if (number[j] > number[k])
+         if (number[j] > number[k]) // flip this equality to make it descending
          {
             temp = number[j];
             number[j] = number[k];
